@@ -1,0 +1,4 @@
+2019-10-27 12:47:30,264 - __main__ - INFO - is_palindrome(abba)
+2019-10-27 12:47:30,266 - __main__ - INFO - is_palindrome(not a palindrome)
+2019-10-27 12:47:30,267 - __main__ - INFO - is_palindrome(99)
+2019-10-27 12:47:30,278 - __main__ - ERROR - is_palindrome requires string parameter, passed 99

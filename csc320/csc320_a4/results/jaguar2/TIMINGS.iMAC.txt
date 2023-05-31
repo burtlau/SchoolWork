@@ -1,0 +1,49 @@
+python viscomp.py --source ../test_images/jaguar2/source.png --target ../test_images/jaguar2/target.png --init-nnf ../results/jaguar2/jaguar2.init.npy --iters 9 --partial-results --nnf-image --nnf-vectors --rec-source --output ../results/jaguar2/jaguar2
+
+---------------------------------------------------------------
+PatchMatch parameters:
+	Initial NNF: 		 ../results/jaguar2/jaguar2.init.npy
+	Iterations: 		 9
+	Patch size: 		 7
+	Alpha: 			 0.5
+	W: 			 630
+	Propagation enabled: 	 True
+	Random search enabled: 	 True
+Output path and base filename: 	 ../results/jaguar2/jaguar2
+Visualization parameters:
+	Output files: 		 correspondences, color nnf, rec'd source 
+	NNF subsampling: 	 50
+	NNF line width: 	 0.5
+	NNF line color: 	 r
+	Matplotlib server mode: False
+	Tmp directory: 		 ./
+---------------------------------------------------------------
+Running iteration 1...
+	Function _propagation_and_random_search ran 14.0879
+	Function _reconstruct_source ran 0.0096
+Running iteration 2...
+	Function _propagation_and_random_search ran 13.4876
+	Function _reconstruct_source ran 0.0064
+Running iteration 3...
+	Function _propagation_and_random_search ran 13.1474
+	Function _reconstruct_source ran 0.0049
+Running iteration 4...
+	Function _propagation_and_random_search ran 13.8349
+	Function _reconstruct_source ran 0.0073
+Running iteration 5...
+	Function _propagation_and_random_search ran 13.1677
+	Function _reconstruct_source ran 0.0053
+Running iteration 6...
+	Function _propagation_and_random_search ran 13.4162
+	Function _reconstruct_source ran 0.0068
+Running iteration 7...
+	Function _propagation_and_random_search ran 13.2142
+	Function _reconstruct_source ran 0.0055
+Running iteration 8...
+	Function _propagation_and_random_search ran 13.2355
+	Function _reconstruct_source ran 0.0067
+Running iteration 9...
+	Function _propagation_and_random_search ran 13.0523
+	Function _reconstruct_source ran 0.0065
+	Function _reconstruct_source ran 0.0055
+Done.
